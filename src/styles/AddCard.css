@@ -1,0 +1,15 @@
+.Edit-Card .Card {
+  min-height: 50px;
+  padding-left: 8px;
+  padding-right: 15px;
+}
+
+.Edit-Card .Card:hover {
+  background: white;
+}
+
+.Edit-Card-Textarea {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 12px;
+}
