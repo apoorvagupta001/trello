@@ -42,7 +42,6 @@ class Board extends Component {
     render() {
     const { board } = this.props;
     const { addingList } = this.state;
-    const { cards } = this.props;
     return (
       <DragDropContext onDragEnd={this.handleDragEnd}>
         <Droppable droppableId="board" direction="horizontal" type="COLUMN">

@@ -1,6 +1,6 @@
 import shortid from "shortid";
 
-export default store => {
+const store = store => {
   console.log("Insert first list");
   const firstListId = shortid.generate();
 
@@ -16,7 +16,7 @@ export default store => {
       cardId: shortid.generate(),
       cardTitle: "Products",
       cardText: "3 pending tasks to be filled by Raj",
-      creationTime: "2021-06-26T13:28:45.417Z"
+      creationTime: "2021-06-29T13:28:45.417Z"
     }
   });
 
@@ -27,7 +27,7 @@ export default store => {
       cardId: shortid.generate(),
       cardTitle: "Sales",      
       cardText: "Send proposal to Puneet for sales prices",
-      creationTime: "2021-06-25T13:28:45.417Z"      
+      creationTime: "2021-06-28T13:28:45.417Z"      
     }
   });
 
@@ -46,7 +46,9 @@ export default store => {
       cardId: shortid.generate(),
       cardTitle: "UAT testing",      
       cardText: "Ask engg to setup testing infra",
-      creationTime: "2021-06-24T13:28:45.417Z"      
+      creationTime: "2021-06-27T13:28:45.417Z"      
     }
   });
 };
+
+export default store;
